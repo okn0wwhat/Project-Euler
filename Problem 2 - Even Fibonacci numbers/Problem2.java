@@ -19,7 +19,7 @@ public class Problem2 {
 		//for loop to add elements to the array
 		for(int i=2;i<limit;i++)
 		{ 
-			number[i]=number[i-1]+number[i-2];
+		number[i]=number[i-1]+number[i-2];
 		System.out.println(number[i]);
 		}
 		double sum=0;
